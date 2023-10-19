@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "CalcExtnt",
+    "version": "1.0.1",
+    "action": {"default_icon":{"1": "icon.png"},
+    "default_title": "Calculator",
+    "default_popup": "index.html"
+    },
+    "description": "A simple calculator right on your browser",
+    "icons": {
+      "1": "icon.png"
+    }
+  }

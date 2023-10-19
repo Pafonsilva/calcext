@@ -1,0 +1,62 @@
+* {
+    margin: 1px;
+    padding: 0px;
+    font: 500 46px "Quicksand", sans-serif;
+    box-sizing: border-box;
+    color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+html {
+    background: #e3e7e9;
+    background-image: linear-gradient(to bottom, rgb(128, 203, 235) 0%, rgb(83, 126, 157) 100%);
+    background-attachment: fixed;
+    width: 315px;
+    height: 343px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 100%;
+}
+
+
+.numberButton,
+.actionButton {
+    top: 0;
+    background: #5f6ace;
+    font-size: 27px;
+    cursor: pointer;
+    width: 66px;
+    height: 46px;
+    border-radius: 10px;
+    box-shadow: 0px 4px rgba(47, 42, 42, 0.2);
+    margin: 0;
+    color: #faf8f0;
+    line-height: 46px;
+    text-align: center;
+    user-select: none;
+    outline: 0 solid;
+    transition: all 0.2s ease;
+}
+
+#clear {
+    background: #c23939;
+
+}
+
+#equals {
+    background: #229ad7;
+    width: 74%;
+}
+
+#symbol {
+    background: #24288f;
+}
+
+.numberButton:hover,
+#clear:hover,
+#equals:hover,
+#symbol:hover {
+    background: #e7a730;
+}
